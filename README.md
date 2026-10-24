@@ -7,14 +7,14 @@ entries**. The Python package runs with the standard library alone.
 The game logic is in generated Python functions under `zork/generated/`.
 `zork/runtime.py` implements the original table, object, arithmetic, and input
 operations. Playing does not require ZIL, a Z-machine interpreter, or a `.z3`
-story file. The original source and historical artifacts are in the sibling
-[historical/](../historical/README.md) directory. This directory, `python/`,
-contains the rewritten game and its development files.
+story file. This standalone repository contains the rewritten game and its
+development files. The original historical archive is optional and is not
+included.
 
 ## Play
 
 Install [Python 3.15.0 or newer](https://www.python.org/downloads/release/python-3150/),
-then run from this directory (`zork1/python/`):
+then run from the repository root:
 
 ```console
 python -m zork
@@ -59,23 +59,29 @@ line and finish at EOF. `script`/`unscript` write a transcript to
 
 ## Development and validation
 
-Run these commands from `python/`. Source coverage tests, regeneration, and live
-comparisons require the sibling `historical/` directory from the full repository.
-The Python wheel and source distribution contain only the Python version.
+Run the tests from the repository root:
 
 ```console
 python -m unittest discover -v
-python tools/translate.py
 ```
 
-All 27 tests pass on Python 3.15.0. They cover parser behavior, combat, timers,
+The suite has 28 tests. Without the optional historical archive, 25 run and the
+three source coverage, source hash, and regeneration checks are skipped. If you
+restore the archive at `../historical/`, those checks run automatically; an
+incomplete or changed archive still fails validation. The tests cover parser behavior, combat, timers,
 restart, isolated sessions, save/restore across processes, recording, integrity,
 and reproducible generation. Four complete output transcripts are checked against
 hashes captured from the original story using an independent interpreter. The
 full walkthrough reaches **350 points and the final barrow ending** in 440 input
 commands / 507 game moves with seed 25.
 
-An optional live comparison can be run with a separate checkout of
+GitHub Actions runs from the repository root on Ubuntu 24.04 and Windows with
+Python 3.15. Both operating-system jobs finish independently.
+
+To regenerate the Python files, restore the original ZIL files at
+`../historical/`, then run `python tools/translate.py`.
+
+An optional live comparison requires `../historical/COMPILED/zork1.z3` and a separate checkout of
 [xyppy](https://github.com/theinternetftw/xyppy):
 
 ```console

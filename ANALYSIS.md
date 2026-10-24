@@ -2,11 +2,11 @@
 
 ## Scope of the archive
 
-The repository separates the original archive into `historical/` and the Python
-implementation into `python/`. In the inventory below, original paths are
-relative to `historical/`; Python destinations are relative to `python/` (or
-`python/zork/` for generated modules and data). Repository settings and a short
-navigation README remain at the root.
+This standalone repository contains the Python implementation at its root.
+The original historical archive is optional and is not included. In the inventory
+below, original paths describe that archive; Python destinations are relative to
+the repository root (or `zork/` for generated modules and data). Development
+tools can read a separately restored archive at `../historical/`.
 
 The original repository contains 11,953 lines across ten ZIL files, with no
 Python application, modern build configuration, or automated tests. `zork1.zil`
@@ -57,10 +57,12 @@ generated function is named after its ZIL routine; the manifest records the
 mapping. `world.json` contains data only: objects, strings, property records,
 grammar, dictionaries, initial globals, and tables.
 
-Both development tools read originals from the sibling `historical/` directory.
-Run development commands from `python/`; GitHub Actions uses that working
-directory too. The Python source distribution excludes the historical archive,
-so source coverage and regeneration checks require the full repository checkout.
+Both development tools read originals from the optional sibling `historical/`
+directory. Run development commands from the repository root; GitHub Actions
+uses that working directory too. Three archive-dependent tests skip when the
+archive directory is absent. All gameplay, artifact integrity, and generated
+content checks still run. An archive that exists but is incomplete fails the
+source checks.
 
 The implementation deliberately preserves low-level semantics that affect play:
 
@@ -90,8 +92,9 @@ references. Regeneration tests verify byte-for-byte reproducibility.
 
 ## Verification and limits
 
-Twenty-seven standard-library `unittest` tests cover semantic operations and real
-command sessions. The optional comparison harness runs the original story through
+Twenty-eight standard-library `unittest` tests cover semantic operations, generated
+content, source translation, and real command sessions; three require the optional
+archive. The optional comparison harness runs the original story through
 [xyppy](https://github.com/theinternetftw/xyppy), using the same seeded random
 generator, and compares complete transcripts after normalizing whitespace.
 

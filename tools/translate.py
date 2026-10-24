@@ -1,6 +1,6 @@
 """Translate every active Zork I routine to ordinary Python functions.
 
-Run from the python/ directory: python tools/translate.py
+Run from the repository root: python tools/translate.py
 The original ZIL sources live in the sibling historical/ directory.
 The game imports the generated modules; it does not read ZIL or story bytecode.
 """

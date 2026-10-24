@@ -1,6 +1,6 @@
 """Optional independent differential check against the archived story file.
 
-Download https://github.com/theinternetftw/xyppy separately, then run from python/:
+Download https://github.com/theinternetftw/xyppy separately, then run from the repository root:
 python tools/compare_original.py --xyppy PATH --commands tests/fixtures/opening.txt
 xyppy is a validation tool only; the Python game never imports it.
 """
