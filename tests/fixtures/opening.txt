@@ -1,0 +1,15 @@
+open mailbox
+read leaflet
+north
+east
+open window
+west
+west
+take lamp
+turn on lamp
+take sword
+move rug
+open trapdoor
+down
+inventory
+score

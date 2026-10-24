@@ -1,0 +1,1792 @@
+{
+  "routines": {
+    "ZPROB": {
+      "source": "gmacros.zil",
+      "python": "fn_zprob"
+    },
+    "RANDOM-ELEMENT": {
+      "source": "gmacros.zil",
+      "python": "fn_random_element"
+    },
+    "PICK-ONE": {
+      "source": "gmacros.zil",
+      "python": "fn_pick_one"
+    },
+    "TREASURE-INSIDE": {
+      "source": "1dungeon.zil",
+      "python": "fn_treasure_inside"
+    },
+    "GRATING-EXIT": {
+      "source": "1dungeon.zil",
+      "python": "fn_grating_exit"
+    },
+    "CANYON-VIEW-F": {
+      "source": "1dungeon.zil",
+      "python": "fn_canyon_view_f"
+    },
+    "GO": {
+      "source": "1dungeon.zil",
+      "python": "fn_go"
+    },
+    "NOT-HERE-OBJECT-F": {
+      "source": "gglobals.zil",
+      "python": "fn_not_here_object_f"
+    },
+    "NOT-HERE-PRINT": {
+      "source": "gglobals.zil",
+      "python": "fn_not_here_print"
+    },
+    "NULL-F": {
+      "source": "gglobals.zil",
+      "python": "fn_null_f"
+    },
+    "STAIRS-F": {
+      "source": "gglobals.zil",
+      "python": "fn_stairs_f"
+    },
+    "SAILOR-FCN": {
+      "source": "gglobals.zil",
+      "python": "fn_sailor_fcn"
+    },
+    "GROUND-FUNCTION": {
+      "source": "gglobals.zil",
+      "python": "fn_ground_function"
+    },
+    "GRUE-FUNCTION": {
+      "source": "gglobals.zil",
+      "python": "fn_grue_function"
+    },
+    "CRETIN-FCN": {
+      "source": "gglobals.zil",
+      "python": "fn_cretin_fcn"
+    },
+    "PATH-OBJECT": {
+      "source": "gglobals.zil",
+      "python": "fn_path_object"
+    },
+    "ZORKMID-FUNCTION": {
+      "source": "gglobals.zil",
+      "python": "fn_zorkmid_function"
+    },
+    "QUEUE": {
+      "source": "gclock.zil",
+      "python": "fn_queue"
+    },
+    "INT": {
+      "source": "gclock.zil",
+      "python": "fn_int"
+    },
+    "CLOCKER": {
+      "source": "gclock.zil",
+      "python": "fn_clocker"
+    },
+    "MAIN-LOOP": {
+      "source": "gmain.zil",
+      "python": "fn_main_loop"
+    },
+    "MAIN-LOOP-1": {
+      "source": "gmain.zil",
+      "python": "fn_main_loop_1"
+    },
+    "PERFORM": {
+      "source": "gmain.zil",
+      "python": "fn_perform"
+    },
+    "PARSER": {
+      "source": "gparser.zil",
+      "python": "fn_parser"
+    },
+    "STUFF": {
+      "source": "gparser.zil",
+      "python": "fn_stuff"
+    },
+    "INBUF-STUFF": {
+      "source": "gparser.zil",
+      "python": "fn_inbuf_stuff"
+    },
+    "INBUF-ADD": {
+      "source": "gparser.zil",
+      "python": "fn_inbuf_add"
+    },
+    "WT?": {
+      "source": "gparser.zil",
+      "python": "fn_wt_q"
+    },
+    "CLAUSE": {
+      "source": "gparser.zil",
+      "python": "fn_clause"
+    },
+    "NUMBER?": {
+      "source": "gparser.zil",
+      "python": "fn_number_q"
+    },
+    "ORPHAN-MERGE": {
+      "source": "gparser.zil",
+      "python": "fn_orphan_merge"
+    },
+    "ACLAUSE-WIN": {
+      "source": "gparser.zil",
+      "python": "fn_aclause_win"
+    },
+    "NCLAUSE-WIN": {
+      "source": "gparser.zil",
+      "python": "fn_nclause_win"
+    },
+    "WORD-PRINT": {
+      "source": "gparser.zil",
+      "python": "fn_word_print"
+    },
+    "UNKNOWN-WORD": {
+      "source": "gparser.zil",
+      "python": "fn_unknown_word"
+    },
+    "CANT-USE": {
+      "source": "gparser.zil",
+      "python": "fn_cant_use"
+    },
+    "SYNTAX-CHECK": {
+      "source": "gparser.zil",
+      "python": "fn_syntax_check"
+    },
+    "CANT-ORPHAN": {
+      "source": "gparser.zil",
+      "python": "fn_cant_orphan"
+    },
+    "ORPHAN": {
+      "source": "gparser.zil",
+      "python": "fn_orphan"
+    },
+    "THING-PRINT": {
+      "source": "gparser.zil",
+      "python": "fn_thing_print"
+    },
+    "BUFFER-PRINT": {
+      "source": "gparser.zil",
+      "python": "fn_buffer_print"
+    },
+    "PREP-PRINT": {
+      "source": "gparser.zil",
+      "python": "fn_prep_print"
+    },
+    "CLAUSE-COPY": {
+      "source": "gparser.zil",
+      "python": "fn_clause_copy"
+    },
+    "CLAUSE-ADD": {
+      "source": "gparser.zil",
+      "python": "fn_clause_add"
+    },
+    "PREP-FIND": {
+      "source": "gparser.zil",
+      "python": "fn_prep_find"
+    },
+    "SYNTAX-FOUND": {
+      "source": "gparser.zil",
+      "python": "fn_syntax_found"
+    },
+    "GWIM": {
+      "source": "gparser.zil",
+      "python": "fn_gwim"
+    },
+    "SNARF-OBJECTS": {
+      "source": "gparser.zil",
+      "python": "fn_snarf_objects"
+    },
+    "BUT-MERGE": {
+      "source": "gparser.zil",
+      "python": "fn_but_merge"
+    },
+    "SNARFEM": {
+      "source": "gparser.zil",
+      "python": "fn_snarfem"
+    },
+    "GET-OBJECT": {
+      "source": "gparser.zil",
+      "python": "fn_get_object"
+    },
+    "WHICH-PRINT": {
+      "source": "gparser.zil",
+      "python": "fn_which_print"
+    },
+    "GLOBAL-CHECK": {
+      "source": "gparser.zil",
+      "python": "fn_global_check"
+    },
+    "DO-SL": {
+      "source": "gparser.zil",
+      "python": "fn_do_sl"
+    },
+    "SEARCH-LIST": {
+      "source": "gparser.zil",
+      "python": "fn_search_list"
+    },
+    "OBJ-FOUND": {
+      "source": "gparser.zil",
+      "python": "fn_obj_found"
+    },
+    "TAKE-CHECK": {
+      "source": "gparser.zil",
+      "python": "fn_take_check"
+    },
+    "ITAKE-CHECK": {
+      "source": "gparser.zil",
+      "python": "fn_itake_check"
+    },
+    "MANY-CHECK": {
+      "source": "gparser.zil",
+      "python": "fn_many_check"
+    },
+    "ZMEMQ": {
+      "source": "gparser.zil",
+      "python": "fn_zmemq"
+    },
+    "ZMEMQB": {
+      "source": "gparser.zil",
+      "python": "fn_zmemqb"
+    },
+    "LIT?": {
+      "source": "gparser.zil",
+      "python": "fn_lit_q"
+    },
+    "THIS-IT?": {
+      "source": "gparser.zil",
+      "python": "fn_this_it_q"
+    },
+    "ACCESSIBLE?": {
+      "source": "gparser.zil",
+      "python": "fn_accessible_q"
+    },
+    "META-LOC": {
+      "source": "gparser.zil",
+      "python": "fn_meta_loc"
+    },
+    "V-VERBOSE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_verbose"
+    },
+    "V-BRIEF": {
+      "source": "gverbs.zil",
+      "python": "fn_v_brief"
+    },
+    "V-SUPER-BRIEF": {
+      "source": "gverbs.zil",
+      "python": "fn_v_super_brief"
+    },
+    "V-INVENTORY": {
+      "source": "gverbs.zil",
+      "python": "fn_v_inventory"
+    },
+    "FINISH": {
+      "source": "gverbs.zil",
+      "python": "fn_finish"
+    },
+    "V-QUIT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_quit"
+    },
+    "V-RESTART": {
+      "source": "gverbs.zil",
+      "python": "fn_v_restart"
+    },
+    "V-RESTORE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_restore"
+    },
+    "V-SAVE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_save"
+    },
+    "V-SCRIPT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_script"
+    },
+    "V-UNSCRIPT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_unscript"
+    },
+    "V-VERSION": {
+      "source": "gverbs.zil",
+      "python": "fn_v_version"
+    },
+    "V-VERIFY": {
+      "source": "gverbs.zil",
+      "python": "fn_v_verify"
+    },
+    "V-COMMAND-FILE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_command_file"
+    },
+    "V-RANDOM": {
+      "source": "gverbs.zil",
+      "python": "fn_v_random"
+    },
+    "V-RECORD": {
+      "source": "gverbs.zil",
+      "python": "fn_v_record"
+    },
+    "V-UNRECORD": {
+      "source": "gverbs.zil",
+      "python": "fn_v_unrecord"
+    },
+    "V-ADVENT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_advent"
+    },
+    "V-ALARM": {
+      "source": "gverbs.zil",
+      "python": "fn_v_alarm"
+    },
+    "V-ANSWER": {
+      "source": "gverbs.zil",
+      "python": "fn_v_answer"
+    },
+    "V-ATTACK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_attack"
+    },
+    "V-BACK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_back"
+    },
+    "V-BLAST": {
+      "source": "gverbs.zil",
+      "python": "fn_v_blast"
+    },
+    "PRE-BOARD": {
+      "source": "gverbs.zil",
+      "python": "fn_pre_board"
+    },
+    "V-BOARD": {
+      "source": "gverbs.zil",
+      "python": "fn_v_board"
+    },
+    "V-BREATHE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_breathe"
+    },
+    "V-BRUSH": {
+      "source": "gverbs.zil",
+      "python": "fn_v_brush"
+    },
+    "V-BUG": {
+      "source": "gverbs.zil",
+      "python": "fn_v_bug"
+    },
+    "TELL-NO-PRSI": {
+      "source": "gverbs.zil",
+      "python": "fn_tell_no_prsi"
+    },
+    "PRE-BURN": {
+      "source": "gverbs.zil",
+      "python": "fn_pre_burn"
+    },
+    "V-BURN": {
+      "source": "gverbs.zil",
+      "python": "fn_v_burn"
+    },
+    "V-CHOMP": {
+      "source": "gverbs.zil",
+      "python": "fn_v_chomp"
+    },
+    "V-CLIMB-DOWN": {
+      "source": "gverbs.zil",
+      "python": "fn_v_climb_down"
+    },
+    "V-CLIMB-FOO": {
+      "source": "gverbs.zil",
+      "python": "fn_v_climb_foo"
+    },
+    "V-CLIMB-ON": {
+      "source": "gverbs.zil",
+      "python": "fn_v_climb_on"
+    },
+    "V-CLIMB-UP": {
+      "source": "gverbs.zil",
+      "python": "fn_v_climb_up"
+    },
+    "V-CLOSE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_close"
+    },
+    "V-COMMAND": {
+      "source": "gverbs.zil",
+      "python": "fn_v_command"
+    },
+    "V-COUNT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_count"
+    },
+    "V-CROSS": {
+      "source": "gverbs.zil",
+      "python": "fn_v_cross"
+    },
+    "V-CURSES": {
+      "source": "gverbs.zil",
+      "python": "fn_v_curses"
+    },
+    "V-CUT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_cut"
+    },
+    "V-DEFLATE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_deflate"
+    },
+    "V-DIG": {
+      "source": "gverbs.zil",
+      "python": "fn_v_dig"
+    },
+    "V-DISEMBARK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_disembark"
+    },
+    "V-DISENCHANT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_disenchant"
+    },
+    "V-DRINK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_drink"
+    },
+    "V-DRINK-FROM": {
+      "source": "gverbs.zil",
+      "python": "fn_v_drink_from"
+    },
+    "PRE-DROP": {
+      "source": "gverbs.zil",
+      "python": "fn_pre_drop"
+    },
+    "V-DROP": {
+      "source": "gverbs.zil",
+      "python": "fn_v_drop"
+    },
+    "V-EAT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_eat"
+    },
+    "HIT-SPOT": {
+      "source": "gverbs.zil",
+      "python": "fn_hit_spot"
+    },
+    "V-ECHO": {
+      "source": "gverbs.zil",
+      "python": "fn_v_echo"
+    },
+    "V-ENCHANT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_enchant"
+    },
+    "REMOVE-CAREFULLY": {
+      "source": "gverbs.zil",
+      "python": "fn_remove_carefully"
+    },
+    "V-ENTER": {
+      "source": "gverbs.zil",
+      "python": "fn_v_enter"
+    },
+    "V-EXAMINE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_examine"
+    },
+    "V-EXIT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_exit"
+    },
+    "V-EXORCISE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_exorcise"
+    },
+    "PRE-FILL": {
+      "source": "gverbs.zil",
+      "python": "fn_pre_fill"
+    },
+    "V-FILL": {
+      "source": "gverbs.zil",
+      "python": "fn_v_fill"
+    },
+    "V-FIND": {
+      "source": "gverbs.zil",
+      "python": "fn_v_find"
+    },
+    "V-FOLLOW": {
+      "source": "gverbs.zil",
+      "python": "fn_v_follow"
+    },
+    "V-FROBOZZ": {
+      "source": "gverbs.zil",
+      "python": "fn_v_frobozz"
+    },
+    "PRE-GIVE": {
+      "source": "gverbs.zil",
+      "python": "fn_pre_give"
+    },
+    "V-GIVE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_give"
+    },
+    "V-HATCH": {
+      "source": "gverbs.zil",
+      "python": "fn_v_hatch"
+    },
+    "V-HELLO": {
+      "source": "gverbs.zil",
+      "python": "fn_v_hello"
+    },
+    "V-INCANT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_incant"
+    },
+    "V-INFLATE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_inflate"
+    },
+    "V-KICK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_kick"
+    },
+    "V-KISS": {
+      "source": "gverbs.zil",
+      "python": "fn_v_kiss"
+    },
+    "V-KNOCK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_knock"
+    },
+    "V-LAMP-OFF": {
+      "source": "gverbs.zil",
+      "python": "fn_v_lamp_off"
+    },
+    "V-LAMP-ON": {
+      "source": "gverbs.zil",
+      "python": "fn_v_lamp_on"
+    },
+    "V-LAUNCH": {
+      "source": "gverbs.zil",
+      "python": "fn_v_launch"
+    },
+    "V-LEAN-ON": {
+      "source": "gverbs.zil",
+      "python": "fn_v_lean_on"
+    },
+    "V-LEAP": {
+      "source": "gverbs.zil",
+      "python": "fn_v_leap"
+    },
+    "V-LEAVE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_leave"
+    },
+    "V-LISTEN": {
+      "source": "gverbs.zil",
+      "python": "fn_v_listen"
+    },
+    "V-LOCK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_lock"
+    },
+    "V-LOOK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_look"
+    },
+    "V-LOOK-BEHIND": {
+      "source": "gverbs.zil",
+      "python": "fn_v_look_behind"
+    },
+    "V-LOOK-INSIDE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_look_inside"
+    },
+    "V-LOOK-ON": {
+      "source": "gverbs.zil",
+      "python": "fn_v_look_on"
+    },
+    "V-LOOK-UNDER": {
+      "source": "gverbs.zil",
+      "python": "fn_v_look_under"
+    },
+    "V-LOWER": {
+      "source": "gverbs.zil",
+      "python": "fn_v_lower"
+    },
+    "V-MAKE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_make"
+    },
+    "V-MELT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_melt"
+    },
+    "PRE-MOVE": {
+      "source": "gverbs.zil",
+      "python": "fn_pre_move"
+    },
+    "V-MOVE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_move"
+    },
+    "V-MUMBLE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_mumble"
+    },
+    "PRE-MUNG": {
+      "source": "gverbs.zil",
+      "python": "fn_pre_mung"
+    },
+    "V-MUNG": {
+      "source": "gverbs.zil",
+      "python": "fn_v_mung"
+    },
+    "V-ODYSSEUS": {
+      "source": "gverbs.zil",
+      "python": "fn_v_odysseus"
+    },
+    "V-OIL": {
+      "source": "gverbs.zil",
+      "python": "fn_v_oil"
+    },
+    "V-OPEN": {
+      "source": "gverbs.zil",
+      "python": "fn_v_open"
+    },
+    "V-OVERBOARD": {
+      "source": "gverbs.zil",
+      "python": "fn_v_overboard"
+    },
+    "V-PICK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_pick"
+    },
+    "V-PLAY": {
+      "source": "gverbs.zil",
+      "python": "fn_v_play"
+    },
+    "V-PLUG": {
+      "source": "gverbs.zil",
+      "python": "fn_v_plug"
+    },
+    "V-POUR-ON": {
+      "source": "gverbs.zil",
+      "python": "fn_v_pour_on"
+    },
+    "V-PRAY": {
+      "source": "gverbs.zil",
+      "python": "fn_v_pray"
+    },
+    "V-PUMP": {
+      "source": "gverbs.zil",
+      "python": "fn_v_pump"
+    },
+    "V-PUSH": {
+      "source": "gverbs.zil",
+      "python": "fn_v_push"
+    },
+    "V-PUSH-TO": {
+      "source": "gverbs.zil",
+      "python": "fn_v_push_to"
+    },
+    "PRE-PUT": {
+      "source": "gverbs.zil",
+      "python": "fn_pre_put"
+    },
+    "V-PUT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_put"
+    },
+    "V-PUT-BEHIND": {
+      "source": "gverbs.zil",
+      "python": "fn_v_put_behind"
+    },
+    "V-PUT-ON": {
+      "source": "gverbs.zil",
+      "python": "fn_v_put_on"
+    },
+    "V-PUT-UNDER": {
+      "source": "gverbs.zil",
+      "python": "fn_v_put_under"
+    },
+    "V-RAISE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_raise"
+    },
+    "V-RAPE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_rape"
+    },
+    "PRE-READ": {
+      "source": "gverbs.zil",
+      "python": "fn_pre_read"
+    },
+    "V-READ": {
+      "source": "gverbs.zil",
+      "python": "fn_v_read"
+    },
+    "V-READ-PAGE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_read_page"
+    },
+    "V-REPENT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_repent"
+    },
+    "V-REPLY": {
+      "source": "gverbs.zil",
+      "python": "fn_v_reply"
+    },
+    "V-RING": {
+      "source": "gverbs.zil",
+      "python": "fn_v_ring"
+    },
+    "V-RUB": {
+      "source": "gverbs.zil",
+      "python": "fn_v_rub"
+    },
+    "V-SAY": {
+      "source": "gverbs.zil",
+      "python": "fn_v_say"
+    },
+    "V-SEARCH": {
+      "source": "gverbs.zil",
+      "python": "fn_v_search"
+    },
+    "V-SEND": {
+      "source": "gverbs.zil",
+      "python": "fn_v_send"
+    },
+    "PRE-SGIVE": {
+      "source": "gverbs.zil",
+      "python": "fn_pre_sgive"
+    },
+    "V-SGIVE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_sgive"
+    },
+    "V-SHAKE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_shake"
+    },
+    "SHAKE-LOOP": {
+      "source": "gverbs.zil",
+      "python": "fn_shake_loop"
+    },
+    "V-SKIP": {
+      "source": "gverbs.zil",
+      "python": "fn_v_skip"
+    },
+    "V-SMELL": {
+      "source": "gverbs.zil",
+      "python": "fn_v_smell"
+    },
+    "V-SPIN": {
+      "source": "gverbs.zil",
+      "python": "fn_v_spin"
+    },
+    "V-SPRAY": {
+      "source": "gverbs.zil",
+      "python": "fn_v_spray"
+    },
+    "V-SQUEEZE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_squeeze"
+    },
+    "V-SSPRAY": {
+      "source": "gverbs.zil",
+      "python": "fn_v_sspray"
+    },
+    "V-STAB": {
+      "source": "gverbs.zil",
+      "python": "fn_v_stab"
+    },
+    "V-STAND": {
+      "source": "gverbs.zil",
+      "python": "fn_v_stand"
+    },
+    "V-STAY": {
+      "source": "gverbs.zil",
+      "python": "fn_v_stay"
+    },
+    "V-STRIKE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_strike"
+    },
+    "V-SWIM": {
+      "source": "gverbs.zil",
+      "python": "fn_v_swim"
+    },
+    "V-SWING": {
+      "source": "gverbs.zil",
+      "python": "fn_v_swing"
+    },
+    "PRE-TAKE": {
+      "source": "gverbs.zil",
+      "python": "fn_pre_take"
+    },
+    "V-TAKE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_take"
+    },
+    "V-TELL": {
+      "source": "gverbs.zil",
+      "python": "fn_v_tell"
+    },
+    "V-THROUGH": {
+      "source": "gverbs.zil",
+      "python": "fn_v_through"
+    },
+    "V-THROW": {
+      "source": "gverbs.zil",
+      "python": "fn_v_throw"
+    },
+    "V-THROW-OFF": {
+      "source": "gverbs.zil",
+      "python": "fn_v_throw_off"
+    },
+    "V-TIE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_tie"
+    },
+    "V-TIE-UP": {
+      "source": "gverbs.zil",
+      "python": "fn_v_tie_up"
+    },
+    "V-TREASURE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_treasure"
+    },
+    "PRE-TURN": {
+      "source": "gverbs.zil",
+      "python": "fn_pre_turn"
+    },
+    "V-TURN": {
+      "source": "gverbs.zil",
+      "python": "fn_v_turn"
+    },
+    "V-UNLOCK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_unlock"
+    },
+    "V-UNTIE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_untie"
+    },
+    "V-WAIT": {
+      "source": "gverbs.zil",
+      "python": "fn_v_wait"
+    },
+    "V-WALK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_walk"
+    },
+    "V-WALK-AROUND": {
+      "source": "gverbs.zil",
+      "python": "fn_v_walk_around"
+    },
+    "V-WALK-TO": {
+      "source": "gverbs.zil",
+      "python": "fn_v_walk_to"
+    },
+    "V-WAVE": {
+      "source": "gverbs.zil",
+      "python": "fn_v_wave"
+    },
+    "V-WEAR": {
+      "source": "gverbs.zil",
+      "python": "fn_v_wear"
+    },
+    "V-WIN": {
+      "source": "gverbs.zil",
+      "python": "fn_v_win"
+    },
+    "V-WIND": {
+      "source": "gverbs.zil",
+      "python": "fn_v_wind"
+    },
+    "V-WISH": {
+      "source": "gverbs.zil",
+      "python": "fn_v_wish"
+    },
+    "V-YELL": {
+      "source": "gverbs.zil",
+      "python": "fn_v_yell"
+    },
+    "V-ZORK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_zork"
+    },
+    "V-FIRST-LOOK": {
+      "source": "gverbs.zil",
+      "python": "fn_v_first_look"
+    },
+    "DESCRIBE-ROOM": {
+      "source": "gverbs.zil",
+      "python": "fn_describe_room"
+    },
+    "DESCRIBE-OBJECTS": {
+      "source": "gverbs.zil",
+      "python": "fn_describe_objects"
+    },
+    "DESCRIBE-OBJECT": {
+      "source": "gverbs.zil",
+      "python": "fn_describe_object"
+    },
+    "PRINT-CONTENTS": {
+      "source": "gverbs.zil",
+      "python": "fn_print_contents"
+    },
+    "PRINT-CONT": {
+      "source": "gverbs.zil",
+      "python": "fn_print_cont"
+    },
+    "FIRSTER": {
+      "source": "gverbs.zil",
+      "python": "fn_firster"
+    },
+    "SEE-INSIDE?": {
+      "source": "gverbs.zil",
+      "python": "fn_see_inside_q"
+    },
+    "SCORE-UPD": {
+      "source": "gverbs.zil",
+      "python": "fn_score_upd"
+    },
+    "SCORE-OBJ": {
+      "source": "gverbs.zil",
+      "python": "fn_score_obj"
+    },
+    "YES?": {
+      "source": "gverbs.zil",
+      "python": "fn_yes_q"
+    },
+    "ITAKE": {
+      "source": "gverbs.zil",
+      "python": "fn_itake"
+    },
+    "IDROP": {
+      "source": "gverbs.zil",
+      "python": "fn_idrop"
+    },
+    "CCOUNT": {
+      "source": "gverbs.zil",
+      "python": "fn_ccount"
+    },
+    "WEIGHT": {
+      "source": "gverbs.zil",
+      "python": "fn_weight"
+    },
+    "HACK-HACK": {
+      "source": "gverbs.zil",
+      "python": "fn_hack_hack"
+    },
+    "NO-GO-TELL": {
+      "source": "gverbs.zil",
+      "python": "fn_no_go_tell"
+    },
+    "GOTO": {
+      "source": "gverbs.zil",
+      "python": "fn_goto"
+    },
+    "LKP": {
+      "source": "gverbs.zil",
+      "python": "fn_lkp"
+    },
+    "DO-WALK": {
+      "source": "gverbs.zil",
+      "python": "fn_do_walk"
+    },
+    "GLOBAL-IN?": {
+      "source": "gverbs.zil",
+      "python": "fn_global_in_q"
+    },
+    "FIND-IN": {
+      "source": "gverbs.zil",
+      "python": "fn_find_in"
+    },
+    "HELD?": {
+      "source": "gverbs.zil",
+      "python": "fn_held_q"
+    },
+    "OTHER-SIDE": {
+      "source": "gverbs.zil",
+      "python": "fn_other_side"
+    },
+    "MUNG-ROOM": {
+      "source": "gverbs.zil",
+      "python": "fn_mung_room"
+    },
+    "THIS-IS-IT": {
+      "source": "gverbs.zil",
+      "python": "fn_this_is_it"
+    },
+    "WEST-HOUSE": {
+      "source": "1actions.zil",
+      "python": "fn_west_house"
+    },
+    "EAST-HOUSE": {
+      "source": "1actions.zil",
+      "python": "fn_east_house"
+    },
+    "OPEN-CLOSE": {
+      "source": "1actions.zil",
+      "python": "fn_open_close"
+    },
+    "BOARD-F": {
+      "source": "1actions.zil",
+      "python": "fn_board_f"
+    },
+    "TEETH-F": {
+      "source": "1actions.zil",
+      "python": "fn_teeth_f"
+    },
+    "GRANITE-WALL-F": {
+      "source": "1actions.zil",
+      "python": "fn_granite_wall_f"
+    },
+    "SONGBIRD-F": {
+      "source": "1actions.zil",
+      "python": "fn_songbird_f"
+    },
+    "WHITE-HOUSE-F": {
+      "source": "1actions.zil",
+      "python": "fn_white_house_f"
+    },
+    "GO-NEXT": {
+      "source": "1actions.zil",
+      "python": "fn_go_next"
+    },
+    "FOREST-F": {
+      "source": "1actions.zil",
+      "python": "fn_forest_f"
+    },
+    "MOUNTAIN-RANGE-F": {
+      "source": "1actions.zil",
+      "python": "fn_mountain_range_f"
+    },
+    "WATER-F": {
+      "source": "1actions.zil",
+      "python": "fn_water_f"
+    },
+    "KITCHEN-WINDOW-F": {
+      "source": "1actions.zil",
+      "python": "fn_kitchen_window_f"
+    },
+    "GHOSTS-F": {
+      "source": "1actions.zil",
+      "python": "fn_ghosts_f"
+    },
+    "BASKET-F": {
+      "source": "1actions.zil",
+      "python": "fn_basket_f"
+    },
+    "BAT-F": {
+      "source": "1actions.zil",
+      "python": "fn_bat_f"
+    },
+    "FLY-ME": {
+      "source": "1actions.zil",
+      "python": "fn_fly_me"
+    },
+    "FWEEP": {
+      "source": "1actions.zil",
+      "python": "fn_fweep"
+    },
+    "BELL-F": {
+      "source": "1actions.zil",
+      "python": "fn_bell_f"
+    },
+    "HOT-BELL-F": {
+      "source": "1actions.zil",
+      "python": "fn_hot_bell_f"
+    },
+    "BOARDED-WINDOW-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_boarded_window_fcn"
+    },
+    "NAILS-PSEUDO": {
+      "source": "1actions.zil",
+      "python": "fn_nails_pseudo"
+    },
+    "CRACK-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_crack_fcn"
+    },
+    "KITCHEN-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_kitchen_fcn"
+    },
+    "STONE-BARROW-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_stone_barrow_fcn"
+    },
+    "BARROW-DOOR-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_barrow_door_fcn"
+    },
+    "BARROW-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_barrow_fcn"
+    },
+    "TROPHY-CASE-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_trophy_case_fcn"
+    },
+    "LIVING-ROOM-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_living_room_fcn"
+    },
+    "TOUCH-ALL": {
+      "source": "1actions.zil",
+      "python": "fn_touch_all"
+    },
+    "OTVAL-FROB": {
+      "source": "1actions.zil",
+      "python": "fn_otval_frob"
+    },
+    "TRAP-DOOR-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_trap_door_fcn"
+    },
+    "CELLAR-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_cellar_fcn"
+    },
+    "CHIMNEY-F": {
+      "source": "1actions.zil",
+      "python": "fn_chimney_f"
+    },
+    "UP-CHIMNEY-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_up_chimney_function"
+    },
+    "TRAP-DOOR-EXIT": {
+      "source": "1actions.zil",
+      "python": "fn_trap_door_exit"
+    },
+    "RUG-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_rug_fcn"
+    },
+    "AXE-F": {
+      "source": "1actions.zil",
+      "python": "fn_axe_f"
+    },
+    "STILETTO-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_stiletto_function"
+    },
+    "WEAPON-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_weapon_function"
+    },
+    "TROLL-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_troll_fcn"
+    },
+    "LEAVES-APPEAR": {
+      "source": "1actions.zil",
+      "python": "fn_leaves_appear"
+    },
+    "LEAF-PILE": {
+      "source": "1actions.zil",
+      "python": "fn_leaf_pile"
+    },
+    "CLEARING-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_clearing_fcn"
+    },
+    "MAZE-11-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_maze_11_fcn"
+    },
+    "GRATE-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_grate_function"
+    },
+    "MAZE-DIODES": {
+      "source": "1actions.zil",
+      "python": "fn_maze_diodes"
+    },
+    "RUSTY-KNIFE-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_rusty_knife_fcn"
+    },
+    "KNIFE-F": {
+      "source": "1actions.zil",
+      "python": "fn_knife_f"
+    },
+    "SKELETON": {
+      "source": "1actions.zil",
+      "python": "fn_skeleton"
+    },
+    "TORCH-OBJECT": {
+      "source": "1actions.zil",
+      "python": "fn_torch_object"
+    },
+    "MIRROR-ROOM": {
+      "source": "1actions.zil",
+      "python": "fn_mirror_room"
+    },
+    "MIRROR-MIRROR": {
+      "source": "1actions.zil",
+      "python": "fn_mirror_mirror"
+    },
+    "TORCH-ROOM-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_torch_room_fcn"
+    },
+    "DOME-ROOM-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_dome_room_fcn"
+    },
+    "LLD-ROOM": {
+      "source": "1actions.zil",
+      "python": "fn_lld_room"
+    },
+    "I-XB": {
+      "source": "1actions.zil",
+      "python": "fn_i_xb"
+    },
+    "I-XC": {
+      "source": "1actions.zil",
+      "python": "fn_i_xc"
+    },
+    "I-XBH": {
+      "source": "1actions.zil",
+      "python": "fn_i_xbh"
+    },
+    "DAM-ROOM-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_dam_room_fcn"
+    },
+    "BOLT-F": {
+      "source": "1actions.zil",
+      "python": "fn_bolt_f"
+    },
+    "BUBBLE-F": {
+      "source": "1actions.zil",
+      "python": "fn_bubble_f"
+    },
+    "INTEGRAL-PART": {
+      "source": "1actions.zil",
+      "python": "fn_integral_part"
+    },
+    "I-RFILL": {
+      "source": "1actions.zil",
+      "python": "fn_i_rfill"
+    },
+    "I-REMPTY": {
+      "source": "1actions.zil",
+      "python": "fn_i_rempty"
+    },
+    "BUTTON-F": {
+      "source": "1actions.zil",
+      "python": "fn_button_f"
+    },
+    "TOOL-CHEST-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_tool_chest_fcn"
+    },
+    "I-MAINT-ROOM": {
+      "source": "1actions.zil",
+      "python": "fn_i_maint_room"
+    },
+    "LEAK-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_leak_function"
+    },
+    "FIX-MAINT-LEAK": {
+      "source": "1actions.zil",
+      "python": "fn_fix_maint_leak"
+    },
+    "PUTTY-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_putty_fcn"
+    },
+    "TUBE-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_tube_function"
+    },
+    "DAM-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_dam_function"
+    },
+    "WITH-TELL": {
+      "source": "1actions.zil",
+      "python": "fn_with_tell"
+    },
+    "RESERVOIR-SOUTH-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_reservoir_south_fcn"
+    },
+    "RESERVOIR-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_reservoir_fcn"
+    },
+    "RESERVOIR-NORTH-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_reservoir_north_fcn"
+    },
+    "BOTTLE-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_bottle_function"
+    },
+    "CYCLOPS-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_cyclops_fcn"
+    },
+    "I-CYCLOPS": {
+      "source": "1actions.zil",
+      "python": "fn_i_cyclops"
+    },
+    "CYCLOPS-ROOM-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_cyclops_room_fcn"
+    },
+    "LOUD-ROOM-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_loud_room_fcn"
+    },
+    "DEEP-CANYON-F": {
+      "source": "1actions.zil",
+      "python": "fn_deep_canyon_f"
+    },
+    "THIEF-VS-ADVENTURER": {
+      "source": "1actions.zil",
+      "python": "fn_thief_vs_adventurer"
+    },
+    "STOLE-LIGHT?": {
+      "source": "1actions.zil",
+      "python": "fn_stole_light_q"
+    },
+    "HACK-TREASURES": {
+      "source": "1actions.zil",
+      "python": "fn_hack_treasures"
+    },
+    "DEPOSIT-BOOTY": {
+      "source": "1actions.zil",
+      "python": "fn_deposit_booty"
+    },
+    "ROB-MAZE": {
+      "source": "1actions.zil",
+      "python": "fn_rob_maze"
+    },
+    "ROBBER-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_robber_function"
+    },
+    "LARGE-BAG-F": {
+      "source": "1actions.zil",
+      "python": "fn_large_bag_f"
+    },
+    "MOVE-ALL": {
+      "source": "1actions.zil",
+      "python": "fn_move_all"
+    },
+    "CHALICE-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_chalice_fcn"
+    },
+    "TREASURE-ROOM-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_treasure_room_fcn"
+    },
+    "THIEF-IN-TREASURE": {
+      "source": "1actions.zil",
+      "python": "fn_thief_in_treasure"
+    },
+    "FRONT-DOOR-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_front_door_fcn"
+    },
+    "BODY-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_body_function"
+    },
+    "BLACK-BOOK": {
+      "source": "1actions.zil",
+      "python": "fn_black_book"
+    },
+    "PAINTING-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_painting_fcn"
+    },
+    "LANTERN": {
+      "source": "1actions.zil",
+      "python": "fn_lantern"
+    },
+    "MAILBOX-F": {
+      "source": "1actions.zil",
+      "python": "fn_mailbox_f"
+    },
+    "MATCH-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_match_function"
+    },
+    "I-MATCH": {
+      "source": "1actions.zil",
+      "python": "fn_i_match"
+    },
+    "I-LANTERN": {
+      "source": "1actions.zil",
+      "python": "fn_i_lantern"
+    },
+    "I-CANDLES": {
+      "source": "1actions.zil",
+      "python": "fn_i_candles"
+    },
+    "LIGHT-INT": {
+      "source": "1actions.zil",
+      "python": "fn_light_int"
+    },
+    "MIN": {
+      "source": "1actions.zil",
+      "python": "fn_min"
+    },
+    "CANDLES-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_candles_fcn"
+    },
+    "CAVE2-ROOM": {
+      "source": "1actions.zil",
+      "python": "fn_cave2_room"
+    },
+    "SWORD-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_sword_fcn"
+    },
+    "BOOM-ROOM": {
+      "source": "1actions.zil",
+      "python": "fn_boom_room"
+    },
+    "BAT-D": {
+      "source": "1actions.zil",
+      "python": "fn_bat_d"
+    },
+    "BATS-ROOM": {
+      "source": "1actions.zil",
+      "python": "fn_bats_room"
+    },
+    "MACHINE-ROOM-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_machine_room_fcn"
+    },
+    "MACHINE-F": {
+      "source": "1actions.zil",
+      "python": "fn_machine_f"
+    },
+    "MSWITCH-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_mswitch_function"
+    },
+    "GUNK-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_gunk_function"
+    },
+    "NO-OBJS": {
+      "source": "1actions.zil",
+      "python": "fn_no_objs"
+    },
+    "SOUTH-TEMPLE-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_south_temple_fcn"
+    },
+    "WHITE-CLIFFS-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_white_cliffs_function"
+    },
+    "SCEPTRE-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_sceptre_function"
+    },
+    "FALLS-ROOM": {
+      "source": "1actions.zil",
+      "python": "fn_falls_room"
+    },
+    "RAINBOW-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_rainbow_fcn"
+    },
+    "DBOAT-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_dboat_function"
+    },
+    "FIX-BOAT": {
+      "source": "1actions.zil",
+      "python": "fn_fix_boat"
+    },
+    "RIVER-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_river_function"
+    },
+    "I-RIVER": {
+      "source": "1actions.zil",
+      "python": "fn_i_river"
+    },
+    "RBOAT-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_rboat_function"
+    },
+    "BREATHE": {
+      "source": "1actions.zil",
+      "python": "fn_breathe"
+    },
+    "IBOAT-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_iboat_function"
+    },
+    "RIVR4-ROOM": {
+      "source": "1actions.zil",
+      "python": "fn_rivr4_room"
+    },
+    "SAND-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_sand_function"
+    },
+    "TREE-ROOM": {
+      "source": "1actions.zil",
+      "python": "fn_tree_room"
+    },
+    "EGG-OBJECT": {
+      "source": "1actions.zil",
+      "python": "fn_egg_object"
+    },
+    "BAD-EGG": {
+      "source": "1actions.zil",
+      "python": "fn_bad_egg"
+    },
+    "CANARY-OBJECT": {
+      "source": "1actions.zil",
+      "python": "fn_canary_object"
+    },
+    "FOREST-ROOM?": {
+      "source": "1actions.zil",
+      "python": "fn_forest_room_q"
+    },
+    "I-FOREST-ROOM": {
+      "source": "1actions.zil",
+      "python": "fn_i_forest_room"
+    },
+    "FOREST-ROOM": {
+      "source": "1actions.zil",
+      "python": "fn_forest_room"
+    },
+    "WCLIF-OBJECT": {
+      "source": "1actions.zil",
+      "python": "fn_wclif_object"
+    },
+    "CLIFF-OBJECT": {
+      "source": "1actions.zil",
+      "python": "fn_cliff_object"
+    },
+    "ROPE-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_rope_function"
+    },
+    "UNTIE-FROM": {
+      "source": "1actions.zil",
+      "python": "fn_untie_from"
+    },
+    "SLIDE-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_slide_function"
+    },
+    "SLIDER": {
+      "source": "1actions.zil",
+      "python": "fn_slider"
+    },
+    "SANDWICH-BAG-FCN": {
+      "source": "1actions.zil",
+      "python": "fn_sandwich_bag_fcn"
+    },
+    "DEAD-FUNCTION": {
+      "source": "1actions.zil",
+      "python": "fn_dead_function"
+    },
+    "LAKE-PSEUDO": {
+      "source": "1actions.zil",
+      "python": "fn_lake_pseudo"
+    },
+    "STREAM-PSEUDO": {
+      "source": "1actions.zil",
+      "python": "fn_stream_pseudo"
+    },
+    "CHASM-PSEUDO": {
+      "source": "1actions.zil",
+      "python": "fn_chasm_pseudo"
+    },
+    "DOME-PSEUDO": {
+      "source": "1actions.zil",
+      "python": "fn_dome_pseudo"
+    },
+    "GATE-PSEUDO": {
+      "source": "1actions.zil",
+      "python": "fn_gate_pseudo"
+    },
+    "DOOR-PSEUDO": {
+      "source": "1actions.zil",
+      "python": "fn_door_pseudo"
+    },
+    "PAINT-PSEUDO": {
+      "source": "1actions.zil",
+      "python": "fn_paint_pseudo"
+    },
+    "GAS-PSEUDO": {
+      "source": "1actions.zil",
+      "python": "fn_gas_pseudo"
+    },
+    "DO-FIGHT": {
+      "source": "1actions.zil",
+      "python": "fn_do_fight"
+    },
+    "REMARK": {
+      "source": "1actions.zil",
+      "python": "fn_remark"
+    },
+    "FIGHT-STRENGTH": {
+      "source": "1actions.zil",
+      "python": "fn_fight_strength"
+    },
+    "VILLAIN-STRENGTH": {
+      "source": "1actions.zil",
+      "python": "fn_villain_strength"
+    },
+    "FIND-WEAPON": {
+      "source": "1actions.zil",
+      "python": "fn_find_weapon"
+    },
+    "VILLAIN-BLOW": {
+      "source": "1actions.zil",
+      "python": "fn_villain_blow"
+    },
+    "HERO-BLOW": {
+      "source": "1actions.zil",
+      "python": "fn_hero_blow"
+    },
+    "WINNER-RESULT": {
+      "source": "1actions.zil",
+      "python": "fn_winner_result"
+    },
+    "VILLAIN-RESULT": {
+      "source": "1actions.zil",
+      "python": "fn_villain_result"
+    },
+    "WINNING?": {
+      "source": "1actions.zil",
+      "python": "fn_winning_q"
+    },
+    "I-CURE": {
+      "source": "1actions.zil",
+      "python": "fn_i_cure"
+    },
+    "I-FIGHT": {
+      "source": "1actions.zil",
+      "python": "fn_i_fight"
+    },
+    "AWAKEN": {
+      "source": "1actions.zil",
+      "python": "fn_awaken"
+    },
+    "I-SWORD": {
+      "source": "1actions.zil",
+      "python": "fn_i_sword"
+    },
+    "INFESTED?": {
+      "source": "1actions.zil",
+      "python": "fn_infested_q"
+    },
+    "I-THIEF": {
+      "source": "1actions.zil",
+      "python": "fn_i_thief"
+    },
+    "DROP-JUNK": {
+      "source": "1actions.zil",
+      "python": "fn_drop_junk"
+    },
+    "RECOVER-STILETTO": {
+      "source": "1actions.zil",
+      "python": "fn_recover_stiletto"
+    },
+    "STEAL-JUNK": {
+      "source": "1actions.zil",
+      "python": "fn_steal_junk"
+    },
+    "ROB": {
+      "source": "1actions.zil",
+      "python": "fn_rob"
+    },
+    "V-DIAGNOSE": {
+      "source": "1actions.zil",
+      "python": "fn_v_diagnose"
+    },
+    "V-SCORE": {
+      "source": "1actions.zil",
+      "python": "fn_v_score"
+    },
+    "JIGS-UP": {
+      "source": "1actions.zil",
+      "python": "fn_jigs_up"
+    },
+    "RANDOMIZE-OBJECTS": {
+      "source": "1actions.zil",
+      "python": "fn_randomize_objects"
+    },
+    "KILL-INTERRUPTS": {
+      "source": "1actions.zil",
+      "python": "fn_kill_interrupts"
+    },
+    "BAG-OF-COINS-F": {
+      "source": "1actions.zil",
+      "python": "fn_bag_of_coins_f"
+    },
+    "TRUNK-F": {
+      "source": "1actions.zil",
+      "python": "fn_trunk_f"
+    },
+    "STUPID-CONTAINER": {
+      "source": "1actions.zil",
+      "python": "fn_stupid_container"
+    },
+    "DUMB-CONTAINER": {
+      "source": "1actions.zil",
+      "python": "fn_dumb_container"
+    },
+    "GARLIC-F": {
+      "source": "1actions.zil",
+      "python": "fn_garlic_f"
+    },
+    "CHAIN-PSEUDO": {
+      "source": "1actions.zil",
+      "python": "fn_chain_pseudo"
+    },
+    "TROLL-ROOM-F": {
+      "source": "1actions.zil",
+      "python": "fn_troll_room_f"
+    }
+  },
+  "rooms": 110,
+  "objects": 250,
+  "syntax_rules": 267,
+  "dictionary_entries": 684,
+  "source_hashes": {
+    "zork1.zil": "12bbbe01a0df6f542b06145abdc28a42591bd8333f02cc6761501b1ef018e104",
+    "gmacros.zil": "d665c73e9231429a772877357fd56d57c946838a5260a74f705c2dc898ebd8f5",
+    "gsyntax.zil": "b0f0b4de6068bb85cf96306a16e07f410518669d12260682d3ac71e2e42b5621",
+    "1dungeon.zil": "8e223dc75ce64cff8542266101742ea73774533787c5257e8df4a262e4f02766",
+    "gglobals.zil": "5945abfeeff71cd2b2088653c7572d3c72bf14d5af65c41b4425d945a6bb6e0a",
+    "gclock.zil": "92c4d66f18eeba8de1497215a0e17ade6c2cf1e5e050f016cf99160e41b154c6",
+    "gmain.zil": "712e27ab29d36f3d36c7994ec6d41011cb869990d8780a03bb2ee8148d3f1740",
+    "gparser.zil": "5c996d3048925ac8781a00c56ce66ec2e58df2c075cc587bceef6355b5c9c1a1",
+    "gverbs.zil": "e1150d6300e262f774b59fe96f8139980dfad3c41f0e93f3af49140b5f57e74e",
+    "1actions.zil": "94be62a8e11e488e866dc1fc126d63bcf2674fa1fd3710cca1d8d01cb3fb4f8b"
+  },
+  "artifact_hashes": {
+    "__init__.py": "e514d2c6791312b21ac372e76f47d81cd6a4b6ff6c058ae72bfb9153a6aeaf23",
+    "gclock.py": "b00001c8a60da78bd9468a6e0cfdff59a2d66c61b1c0f024256cc9824ea13461",
+    "gglobals.py": "debab3bb878856ffdbf9c799f8e907e49d3b9ee098fb47e23a77f62c225f0c90",
+    "gmacros.py": "86c560e54952d5e16bf86ed2825d4c054a419963263648d8d9e6dde832a07762",
+    "gmain.py": "e75e295070a857cf11d01aac7e138928676384d5322d48a462dc95089ed34ad8",
+    "gparser.py": "27c5e029f2cc8fafd06d95236cac45208e9d9e1a21588e33ff391ff2aeb8a5cb",
+    "gverbs.py": "be11aac7409187116d06b631b93ffcbefbb12d32b0f831ff3ffbc0344a274469",
+    "world.json": "abcd369630631441c47193741e6b7f3a171348b86fda5e9043283fa84866364f",
+    "z1actions.py": "4d1924315a4260bfeb9125636cc6d775aa013c3908361c01cf4d5e20a03618c7",
+    "z1dungeon.py": "21d052ff09fbfcb62fca9d622ea8514027a90080d7de3217518787243980cdca"
+  }
+}

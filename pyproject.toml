@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zork1-python"
+version = "1.0.0"
+description = "The complete archived Zork I game translated from ZIL to Python"
+readme = "README.md"
+requires-python = ">=3.15"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.scripts]
+zork1 = "zork.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["zork*"]
+
+[tool.setuptools.package-data]
+"zork.generated" = ["*.json"]

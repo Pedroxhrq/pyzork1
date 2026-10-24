@@ -1,0 +1,31 @@
+n
+e
+open window
+w
+w
+take lamp and sword
+turn on lamp
+move rug
+open trap door
+d
+n
+kill troll with sword
+kill troll with sword
+kill troll with sword
+kill troll with sword
+kill troll with sword
+look
+inventory
+diagnose
+e
+e
+se
+e
+n
+take wrench
+take screwdriver
+push yellow button
+s
+turn bolt with wrench
+look
+score

@@ -1,0 +1,29 @@
+look
+xyzzy
+open maibox
+oops mailbox
+take leaflet
+read it
+again
+drop leaflet
+take
+leaflet
+north then east
+open window
+in
+open bottle
+take all
+inventory
+drop all but leaflet
+west
+take sword and lamp
+turn on lamp
+look in case
+put leaflet in case
+look at lantern
+turn it off
+look under rug
+move rug
+open trap door
+close it
+score
